@@ -35,7 +35,9 @@ We should avoid using the *xyz* naming convention because there's no agreement (
 
 2. By means of a modal analysis, identify the resonant frequency $f_{0}$ in which the suspension beam behaves nearly as rigid body, and where flexure deforms a lot. In Fabian's report on the rigid body simulation, this frequency was arbitrarily chosen to be 16.65 Hz.
 3. Tell Fabián the result so he can use the rigid body simulation to calculate the frequency $f_{\rm sat}$ in which the effect of the misplacement of the centre of rotation is expected dominate. The subindex in $f_{\rm sat}$ stands for saturation.
-  
-2. Choose a relatively high frequency that is not close to any of the resonance frequencies of the system, and where the effect . For example, per Fabián's report,
 
-3. to move only in the longitudinal direction. 
+4. Release the contraint imposed to the top point in the longitudinal direction only, so it can move along such a direction. 
+  
+2. At the frequency larger than $f_{\rm sat}$  relatively high frequency that is not close to any of the resonance frequencies of the system, and where the effect . For example, per Fabián's report,
+
+3. 
