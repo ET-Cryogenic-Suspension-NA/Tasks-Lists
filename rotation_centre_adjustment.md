@@ -41,4 +41,7 @@ We should avoid using the *xyz* naming convention because there's no agreement (
 2. At a frequency larger than $f_{\rm sat}$, set the top point to move sinusoidally in longitudinal with an amplitude of your choosing,   say, 200 $\rm \mu m$.
 
 3. Use COMSOL to calculate the amplitude of the motion of the bottom point.
-4. Calculate the amplitude of the transfer function defined above.
+4. Calculate the *amplitude* of the transfer function defined above. How large is this value? It is expected to be small, like between $10^{-4}$ and $10^{-6}$.
+5. Check whether the top and bottom points are on the same side of the equilibrium position when they move. In such a case, the centre of rotation is below the bottom point. **Remove or add mass?**
+6. In case the points are on opposite sides of the equilibrium position as they move, the centre of rotation is above the bottom point.
+   **Remove or add mass?**
