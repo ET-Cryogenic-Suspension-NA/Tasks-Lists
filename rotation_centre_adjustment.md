@@ -1,4 +1,4 @@
-# Rotation centre adjustment
+# Centre of rotation  adjustment
 
 ## Introduction
 
