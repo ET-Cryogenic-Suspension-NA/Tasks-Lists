@@ -46,4 +46,4 @@ We should avoid using the *xyz* naming convention because there's no agreement (
 6. In case the points are on opposite sides of the equilibrium position as they move, the centre of rotation is above the bottom point, and **decresing** $m_{\rm cw}$ would **move it down**.
 7. Because the goal is to set the centre of rotation as close as possible to the bottom point, it's necesssary to repeat the steps above after adjusting the counterweight mass $m_{\rm cw}$ either up and down, and  by smaller amounts each repetition. First, use steps of 10 g, then several or a few grams, a gram, and finally 0.1 g.
 8. Calculate the transfer function for several frequencies above the one you were working at, and check whether the plot looks like a plateau or just decreases with frequency.
-9. If possible, calculate the transfer function in all frequencies of interest. I'm not sure whether COMSOL would be able to do this easily.
+9. If possible, calculate the transfer function in all frequencies of interest. I'm not sure if COMSOL would be able to do this easily.
