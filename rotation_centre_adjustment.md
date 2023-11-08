@@ -44,3 +44,5 @@ We should avoid using the *xyz* naming convention because there's no agreement (
 4. Calculate the *amplitude* of the transfer function defined above. How large is this value? It is expected to be small, like between $10^{-4}$ and $10^{-6}$.
 5. Check whether the top and bottom points are on the same side of the equilibrium position when they move. In such a case, the centre of rotation is below the bottom point, and **increasing** $m_{\rm cw}$ would **move it up**.
 6. In case the points are on opposite sides of the equilibrium position as they move, the centre of rotation is above the bottom point, and **decresing** $m_{\rm cw}$ would **move it down**.
+7. Because the goal is to set the centre of rotation as close as possible to the bottom point, it's necesssary to repeat the steps above after adjusting the counterweight mass $m_{\rm cw}$ either up and down, and  by smaller amounts each repetition. First, use steps of 10 g, then several or a few grams, a gram, and finally 0.1 g.
+8. Calculate the transfer function for several frequencies above the one you were working at, and check whether the plot looks like a plateau or just decreases with frequency.
