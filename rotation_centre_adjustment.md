@@ -10,7 +10,9 @@ of percussion. Namely,
 * **The centre of rotation** must be placed at the bottom inner face of the bottom alcove, where the beam couples with the
    mirror via the lower flexure.
 
-Let us call these geometrical places **top** and **bottom** points respectively.
+Let us call these geometrical places **top** and **bottom** points respectively, and they are located in the 3D-CAD as shown in this figure
+
+<img src="figures/top_and_bottom_points.png" alt="Top and bottom points" width="300"/>
 
 This task will be accompished by judiciously varying the mass of the counterweight $m_{\rm cw}$, and calculating the *displacement* 
 transfer function, defined as the ratio
@@ -27,10 +29,10 @@ We should avoid using the *xyz* naming convention because there's no agreement (
 
 ## Procedure
 
-1. In COMSOL, consider a suspension beam, the upper flexure, the crossbeam, the upper counterweight with mass $m_{\rm cw}$, and a load with mass $m_{\rm load}$.
+1. In COMSOL, consider a suspension beam, the upper flexure, the upper counterweight with mass $m_{\rm cw}$, and a load with mass $m_{\rm load}$.
    1. Initially, the top point must be fully constrained in all six degrees of freedom.
-   2. To begin with, set the value of the counterweight mass $m_{\rm cw}$ equal to 0.820 kg (11 g larger than the optimum written in [Fabián's report](reports/cryogenic_suspension_rigid_body_model_fabian.pdf)).
-   3. The load must be placed at the bottom point and its mass $m_{\rm load}$ must be equal to one-quater of the mass of the mirror, namely, 50 kg.
+   2. To begin with, set the value of the counterweight mass $m_{\rm cw}$ equal to 0.820 kg (11 g larger than the optimum written in [Fabián's report](reports/cryogenic_suspension_rigid_body_model_fabian.pdf)). The counterweight is at the top of the suspension beam, as show in <img src="figures/counterweight.png" alt="this figure" width="400"/>.
+   3. The load must be placed at the bottom point and its mass $m_{\rm load}$ must be equal to one-quater of the mass of the mirror (200 kg / 4 = 50 kg) plus one-half of the mass of the cross beam.
    4. All the other components must be at their nominal places with their nominal physical properties.
 
 2. By means of a modal analysis, identify the resonant frequency $f_{0}$ in which the suspension beam behaves nearly as rigid body, and where flexure deforms a lot. In Fabian's report on the rigid body simulation, this frequency was arbitrarily chosen to be 16.65 Hz. See this <img src="figures/transfer_function_amplitude.png" alt="transfer function" width="400"/>.
